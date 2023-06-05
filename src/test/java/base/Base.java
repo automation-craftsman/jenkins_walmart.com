@@ -93,7 +93,6 @@ public class Base {
         driver.manage().window().maximize();
         driver.get(prop.getProperty("url"));
 
-        System.out.println("[i] Thread ID > " + Thread.currentThread().threadId() + " | " + "Driver ID > " + getDriver());
     }
 
     /**
